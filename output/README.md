@@ -12,6 +12,7 @@ The _output plugins_ defines where [Fluent Bit](http://fluentbit.io) should flus
 | [file](file.md) | File | Flush records to a file. |
 | [flowcounter](flowcounter.md) | FlowCounter | Count records. |
 | [forward](forward.md) | Forward | Fluentd forward protocol. |
+| [gelf](gelf.md) | GELF | Flush records to Graylog or any other GELF compatible service. |
 | [http](http.md) | HTTP | Flush records to an HTTP end point. |
 | [influxdb](influxdb.md) | InfluxDB | Flush records to InfluxDB time series database. |
 | [kafka](kafka.md) | Apache Kafka | Flush records to Apache Kafka |
